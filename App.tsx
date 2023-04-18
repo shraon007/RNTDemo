@@ -9,7 +9,7 @@ import {
 } from 'react-native';
 
 const Separator = () => <View style={styles.separator} />;
-const A = "Hi Shraon 12";
+const A = "Hi Shraon 123";
 const func1 = () => {
   return (
 
