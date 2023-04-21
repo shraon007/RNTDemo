@@ -10,9 +10,6 @@
             "type": "reactnative",
             "request": "attach",
             "port": 8083,
-            "skipFiles": [
-                "node_modules/**"
-            ],
         }
     ]
 }

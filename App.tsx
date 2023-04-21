@@ -10,6 +10,7 @@ import {
 
 const Separator = () => <View style={styles.separator} />;
 const A = "Hi Shraon 1234";
+
 const func1 = () => {
   return (
 
