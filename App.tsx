@@ -9,15 +9,11 @@ import {
 } from 'react-native';
 
 const Separator = () => <View style={styles.separator} />;
-const A = "Hi Shraon 1234";
+const A = 'Hi Shraon 1234';
 
 const func1 = () => {
-  return (
-
-    Alert.alert(A)
-  )
-}
-
+  return Alert.alert(A);
+};
 
 const App = () => (
   <SafeAreaView style={styles.container}>
@@ -26,10 +22,7 @@ const App = () => (
         The title and onPress handler are required. It is recommended to set
         accessibilityLabel to help make your app usable by everyone.
       </Text>
-      <Button
-        title="Press me"
-        onPress={() => func1()}
-      />
+      <Button title="Press me" onPress={() => func1()} />
     </View>
     <Separator />
     <View>
